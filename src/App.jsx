@@ -8,6 +8,7 @@ import ConditionalRendering from './components/ConditionalRendering'
 import ListRendering from './components/ListRendering'
 import Forms from './components/Forms'
 import UseEffect from './components/UseEffect'
+import MainPage from './components/routing/MainPage'
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
       {/* <ConditionalRendering props={user}/> */}
       {/* <ListRendering/> */}
       {/* <Forms/> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      <MainPage/>
     </>
   )
 }
