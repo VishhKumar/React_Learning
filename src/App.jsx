@@ -9,6 +9,7 @@ import ListRendering from './components/ListRendering'
 import Forms from './components/Forms'
 import UseEffect from './components/UseEffect'
 import MainPage from './components/routing/MainPage'
+import MainParent from './components/contextAPiExample/MainParent'
 
 function App() {
 
@@ -22,9 +23,10 @@ function App() {
       {/* <EventHandeling/> */}
       {/* <ConditionalRendering props={user}/> */}
       {/* <ListRendering/> */}
-      {/* <Forms/> */}
+    {/* <Forms/> */}
       {/* <UseEffect/> */}
-      <MainPage/>
+      {/* <MainPage/> */}
+      <MainParent/>
     </>
   )
 }
