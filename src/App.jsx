@@ -10,6 +10,7 @@ import Forms from './components/Forms'
 import UseEffect from './components/UseEffect'
 import MainPage from './components/routing/MainPage'
 import MainParent from './components/contextAPiExample/MainParent'
+import UseRef from './components/UseRef'
 
 function App() {
 
@@ -26,7 +27,8 @@ function App() {
     {/* <Forms/> */}
       {/* <UseEffect/> */}
       {/* <MainPage/> */}
-      <MainParent/>
+      {/* <MainParent/> */}
+      <UseRef/>
     </>
   )
 }
