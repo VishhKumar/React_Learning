@@ -11,6 +11,8 @@ import UseEffect from './components/UseEffect'
 import MainPage from './components/routing/MainPage'
 import MainParent from './components/contextAPiExample/MainParent'
 import UseRef from './components/UseRef'
+import CustomMain from './components/customHook/customMain'
+// import customMain from './components/customHook/CustomMain'
 
 function App() {
 
@@ -28,7 +30,8 @@ function App() {
       {/* <UseEffect/> */}
       {/* <MainPage/> */}
       {/* <MainParent/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <CustomMain/>
     </>
   )
 }
